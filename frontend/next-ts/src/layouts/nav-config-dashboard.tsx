@@ -75,6 +75,10 @@ export const navData: NavSectionProps['data'] = [
       { title: 'Booking', path: paths.dashboard.general.booking, icon: ICONS.booking },
       { title: 'File', path: paths.dashboard.general.file, icon: ICONS.file },
       { title: 'Course', path: paths.dashboard.general.course, icon: ICONS.course },
+      { title: 'Receipts', path: paths.dashboard.general.receipts, icon: ICONS.invoice },
+      { title: 'Analytics Dashboard', path: paths.dashboard.general.analyticsDashboard, icon: ICONS.analytics },
+      { title: 'Vendor Analytics', path: paths.dashboard.general.vendor, icon: ICONS.user },
+      { title: 'Audit Findings', path: paths.dashboard.general.audit, icon: ICONS.lock },
     ],
   },
   /**
