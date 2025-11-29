@@ -110,6 +110,7 @@ export const paths = {
       analyticsDashboard: `${ROOTS.DASHBOARD}/analytics-dashboard`,
       vendor: `${ROOTS.DASHBOARD}/vendor`,
       audit: `${ROOTS.DASHBOARD}/audit`,
+      chatAuditor: `${ROOTS.DASHBOARD}/chat-auditor`,
     },
     user: {
       root: `${ROOTS.DASHBOARD}/user`,
