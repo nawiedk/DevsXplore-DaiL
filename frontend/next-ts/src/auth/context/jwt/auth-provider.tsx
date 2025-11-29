@@ -60,7 +60,7 @@ export function AuthProvider({ children }: Props) {
 
   const memoizedValue = useMemo(
     () => ({
-      user: state.user ? { ...state.user, role: state.user?.role ?? 'admin' } : null,
+      user: state.user ? { ...state.user, role: state.user?.role ?? 'employee' } : null,
       checkUserSession,
       loading: status === 'loading',
       authenticated: status === 'authenticated',
